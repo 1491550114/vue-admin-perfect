@@ -44,7 +44,7 @@
             <BarCharts width="100%" height="100%" />
           </div>
           <div class="item-complex">
-            <PieCharts />
+            <!-- <PieCharts /> -->
           </div>
         </div>
       </div>
@@ -58,8 +58,8 @@ import CountTo from '@/components/CountTo/index.vue'
 import LineCharts from '@/components/DataScreen/lineEcharts/index.vue'
 import BarCharts from '@/components/DataScreen/barEcharts/index.vue'
 import MigrationCharts from '@/components/DataScreen/migrationEcharts/index.vue'
-import MultilineCharts from '@/components/DataScreen/Multiline/index'
-import PieCharts from '@/components/DataScreen/Pie/index'
+import MultilineCharts from '@/components/DataScreen/Multiline/index.vue'
+// import PieCharts from '@/components/DataScreen/Pie/index'
 
 const timeDate = ref()
 const hourTime = ref()
